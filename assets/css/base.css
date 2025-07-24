@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     font-family: var(--fonte);
     font-size: var(--tamanho-da-fonte);
-    color: var(--cor-do-texto);
+    color: var(--cor-do-texto2);
 }
 
 a{

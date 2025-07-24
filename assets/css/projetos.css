@@ -1,0 +1,50 @@
+.container-projetos{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.cards-projeto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card-projeto{
+    flex-basis: calc(50% - 10px);
+    height: 370px;
+    width: 370px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+
+.projeto-img{
+    width: auto;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+    position: absolute;
+}
+
+
+
+.titulo-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+
+.projetos{
+    background-color: rgb(73, 73, 73);
+    padding: 100px;
+}
