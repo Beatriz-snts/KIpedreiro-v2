@@ -28,7 +28,7 @@
 
 .card-servico{
     flex-basis: calc(40% - 10px);
-    height: 280px;
+    height: 180px;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -59,11 +59,34 @@
     font-size: 1.2em;
     padding: 10px;
     text-align: center;
-    transform: translateY(100%);
+    transform: translateY(115%);
     transition: transform 0.9s ease-in-out;
     backdrop-filter: blur(1px);
 }
 
 .card-servico:hover .figcaption-servico{
     transform: translateY(0%);
+}
+
+.container-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botao-servicos{
+    padding: 10px 20px;
+   background-color: yellow;
+   color: black;
+   padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.botao-servicos:hover{
+    background-color: rgb(131, 131, 131);
 }
