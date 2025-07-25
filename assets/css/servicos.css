@@ -90,3 +90,33 @@
 .botao-servicos:hover{
     background-color: rgb(131, 131, 131);
 }
+
+.cards-colum{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-servico-pag{
+     width: 400px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    padding: 8px;
+    
+}
+.figure pag{
+    display: flex;
+}
+.figcaption-servico-pag{
+   position: absolute;
+   right: 0;
+   top: 0;
+   transform: translateX(50%);
+
+}

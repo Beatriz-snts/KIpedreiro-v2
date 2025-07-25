@@ -1,6 +1,7 @@
 header{
     display: flex;
     flex-direction: column;
+    box-shadow: 3px 2px;
 }
 
 .menu-secundario {
@@ -47,5 +48,5 @@ header{
     height: 50px;
 }
 .nav{
-    color: black;
+    color: rgb(0, 0, 0);
 }

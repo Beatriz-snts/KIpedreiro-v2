@@ -1,9 +1,9 @@
 :root{
     --cor-de-fundo: white;
     --cor-principal: #da6900;
-    --cor-do-texto: #000000;
+    --cor-do-texto: #f5f2f2;
     --cor-do-texto2: #ffffff;
-    --cor-terciaria: rgb(73, 73, 73);
+    --cor-terciaria: rgb(37, 37, 37);
     --cor-fundo-do-topo:#182c50;
     --fonte: 'Arial', sans-serif;
     --tamanho-da-fonte: 16px;
